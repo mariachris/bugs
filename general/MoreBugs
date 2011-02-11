@@ -1,2 +1,3 @@
 * Recursive opaque
 * Opaque 'true'
+* opaque_tests/src/invalid_spec_bug.erl
