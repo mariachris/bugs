@@ -13,6 +13,7 @@ log_and_halt(Msg) ->
       abort(Msg)
   end.
 
+-spec abort(string()) -> no_return().
 abort(Msg) ->
   io:format("~s~n", [Msg]),
   halt(1).
